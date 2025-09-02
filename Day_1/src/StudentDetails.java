@@ -1,0 +1,23 @@
+
+public class StudentDetails {
+	private int rollno,year;
+	private float percentage;
+	private String stdname;
+	public void initStudentData(String n0,int n1,int n2,float n3){
+		stdname=n0;
+		rollno=n1;
+		year=n2;
+		percentage=n3;
+	
+	}
+	public void displayStudentDetails(){
+		System.out.println("Name="+stdname);
+		System.out.println("RollNumber="+rollno);
+		System.out.println("Year="+year);
+		System.out.println("percentage="+percentage);
+	}
+	public void marksDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+}
