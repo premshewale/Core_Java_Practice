@@ -1,0 +1,16 @@
+
+public class TempConvertor {
+
+	private float celcius,fahrenheit;
+	
+	public TempConvertor(float celcius){
+		this.celcius=celcius;
+	}
+	public void converter(){
+		fahrenheit=(this.celcius*9/5)+32;
+	}
+	
+	public String toString(){
+		return "celcius:"+celcius+" To fahrenheit:"+fahrenheit;
+	}
+}
