@@ -1,0 +1,28 @@
+
+public class MyDate1Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyDate1 md=new MyDate1();
+		
+		int n1=14;
+		md.setDate(n1);
+		int date=md.getDate();
+		System.out.print(+date+"/");
+		
+		
+		int n2=02;
+		md.setMonth(n2);
+		int month=md.getMonth();
+		System.out.print(month+"/");
+		
+		
+		
+		int n3=1998;
+		md.setYear(n3);
+		int year=md.getYear();
+		System.out.println(year);
+	}
+	
+}
