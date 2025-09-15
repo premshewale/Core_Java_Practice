@@ -1,0 +1,22 @@
+
+
+public class Employee {
+
+	private int empid;
+	private String empname;
+	private double salary;
+	MyDate hiredate;
+	Address address;
+	
+	public Employee(int empid,String empname,double salary,MyDate hiredate,Address address){
+		this.empid=empid;
+		this.empname=empname;
+		this.salary=salary;
+		this.hiredate=hiredate;
+		this.address=address;
+	}
+	public String toString(){
+		return empid+"\t"+empname+"\t"+salary+"\t"+hiredate+"\t"+address;
+	}
+}
+
