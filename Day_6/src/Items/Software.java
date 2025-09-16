@@ -1,0 +1,23 @@
+package Items;
+
+public class Software extends Item{
+	private float version;
+
+	public Software(String title, String publisher, int yearPublished, int ISBN, double price,float version) {
+		super(title, publisher, yearPublished, ISBN, price);
+		// TODO Auto-generated constructor stub
+	
+		this.version = version;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString()+ "Software [version=" + version + "]";
+	}
+
+	
+	
+	
+	
+
+}
