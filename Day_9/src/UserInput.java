@@ -1,0 +1,50 @@
+	import java.util.Scanner;
+	
+	
+public class UserInput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Scanner sc=new Scanner(System.in);
+		for(int i=0;i<=5;i++){
+		String name;
+		int num;
+		double salary;	
+		System.out.print("Enter EMP_ID : ");
+		num=sc.nextInt();
+		System.out.print("Enter Name : ");
+		name=sc.next();
+		System.out.print("Enter Salary : ");
+		salary=sc.nextDouble();
+		Employee ep=new Employee(num, name, salary);
+		//System.out.println("Employees-- \nemp_id \t Name \t Salary" );
+		System.out.println(ep);
+		}
+		
+		
+		
+		/*Scanner sc1=new Scanner(System.in);
+		String name1;
+		int num1;
+		double salary1;	
+		System.out.println("Enter EMP_ID");
+		num1=sc.nextInt();
+		System.out.println("Enter Name");
+		name1=sc.next();
+		System.out.println("Enter Salary");
+		salary1=sc.nextDouble();	
+		Employee ep1=new Employee(num1, name1, salary1);
+		
+		
+		System.out.println(ep1);*/
+		
+		
+
+		
+		
+		
+	}
+
+}
