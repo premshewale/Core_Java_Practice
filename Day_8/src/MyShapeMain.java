@@ -1,0 +1,19 @@
+
+public class MyShapeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+			Circle cl= new Circle(5);
+			cl.area();
+			System.out.println(cl);
+		
+			Rectangle re= new Rectangle(5,5);
+			re.area();
+			System.out.println(re);
+			
+			
+	}
+
+}

@@ -1,0 +1,26 @@
+package Interface;
+
+public class Student implements Printable{
+	
+	public String studentname;
+	public int rollNo;
+	public int birthyear;
+	
+	
+	public Student(String studentname, int rollNo, int birthyear) {
+	
+		this.studentname = studentname;
+		this.rollNo = rollNo;
+		this.birthyear = birthyear;
+	}
+
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	System.out.println( "Student [" + (studentname != null ? "studentname=" + studentname + ", " : "") + "rollNo=" + rollNo
+				+ ", birthyear=" + birthyear + "]");
+	}
+
+}

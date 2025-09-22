@@ -1,0 +1,33 @@
+package Interface;
+
+public class Constract implements Printable {
+
+	public String name;
+	public int time_period;
+	
+	
+	
+	
+	public Constract(String name, int time_period) {
+		
+		this.name = name;
+		this.time_period = time_period;
+	}
+
+
+
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Contract [" + (name != null ? "name=" + name + ", " : "") + "time_period=" + time_period + "]");
+		
+	}
+
+
+}
+	
+	 
+	
+

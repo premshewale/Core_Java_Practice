@@ -1,0 +1,19 @@
+package Interface;
+
+public class InterfaceMain {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	 
+	 Ball ball= new Ball();
+	 ball.bounce();
+	 ball.move();
+	 
+	 
+	 Car car= new Car();
+	 car.move();
+	 
+ 
+}
+}
