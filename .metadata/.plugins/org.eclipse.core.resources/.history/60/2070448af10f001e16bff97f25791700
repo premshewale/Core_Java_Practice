@@ -1,0 +1,8 @@
+
+public abstract class Circle extends Rectangle {
+	
+	static{
+		pi=3.14f;
+	}
+	private static float  pi;
+}

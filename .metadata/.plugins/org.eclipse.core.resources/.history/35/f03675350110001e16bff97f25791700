@@ -1,0 +1,15 @@
+package Interface;
+
+public class InterfaceMain {
+ public void main(){
+	 
+	 Ball bl= new Ball();
+	 bl.bounce();
+	 bl.move();
+	 
+	 
+	 Car cr= new Car();
+	 cr.move();
+	 
+ }
+}

@@ -1,0 +1,16 @@
+
+public class ElectronicDevice {
+	
+ protected String companyname;
+ protected String Device;
+ protected int units
+	
+ public void display(){
+		System.out.print("Device name = "+Device+"Company name = "+companyname+"Units = "+units);
+				                           
+	}
+}
+
+
+
+

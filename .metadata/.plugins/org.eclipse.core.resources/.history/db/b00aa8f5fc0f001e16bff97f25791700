@@ -1,0 +1,17 @@
+package Interface;
+
+public class Constract implements Printable {
+
+	public String name;
+	public int time_period;
+	
+	
+	
+	
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+
+public class Computer extends ElectronicDevice{
+
+
+
+	 
+	private String companyname,Device;
+	private static int units=30;
+	public Computer(String companyname){
+		super();
+		this.companyname=companyname;
+	
+	}
+	public void TvUnits(){
+		units=units;
+		Device="computers";
+		
+	}
+	@Override
+	public String toString() {
+		return "Computer Units " +units;
+}
+}
+
+

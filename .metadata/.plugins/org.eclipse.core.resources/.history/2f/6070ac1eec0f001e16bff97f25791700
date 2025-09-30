@@ -1,0 +1,15 @@
+
+public class CarMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		CarSwim cs=new carswim();
+		cs.run();
+		cs.fly();
+		cs.swim();
+		
+		
+	}
+
+}

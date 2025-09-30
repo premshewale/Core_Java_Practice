@@ -1,0 +1,11 @@
+
+public abstract class Rectangle extends MyShape {
+	 private int breadth,length;
+	 private float area;
+	
+	public void area(){
+		area=lenght*bredth;
+	}
+
+
+}

@@ -1,0 +1,17 @@
+
+public class DailyWagesEmp extends Employees{
+	
+	private double salary,gross;
+	public DailyWagesEmp(int empid,String empname,double salary){
+		
+		this.empid=empid;
+		this.empname=empname;
+		this.salary=salary;
+		
+	}
+		public void calculateDailySalary(){
+			
+			
+		
+	}
+}

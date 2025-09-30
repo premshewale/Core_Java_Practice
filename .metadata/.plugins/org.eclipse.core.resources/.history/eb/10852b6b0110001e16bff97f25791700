@@ -1,0 +1,17 @@
+package Interface;
+
+public class Car implements Movable,Bounceable{
+
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+		System.out.println("Car is Moving");
+	}
+
+	@Override
+	public void bounce() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

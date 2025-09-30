@@ -1,0 +1,19 @@
+
+public abstract class Rectangle extends MyShape {
+	
+	public @Override
+	public void Rectangle(int length,int bredth) {
+		// TODO Auto-generated method stub
+		super(length,bredth);
+	}
+	
+	@Override
+	public String toString() {
+		return "Rectangle [area=" + area + "]";
+	}
+	
+
+	
+
+
+}

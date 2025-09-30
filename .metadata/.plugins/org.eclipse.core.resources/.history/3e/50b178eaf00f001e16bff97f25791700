@@ -1,0 +1,24 @@
+
+public abstract class MyShape {
+	
+	private int length,bredth;
+	private float radius,area;
+
+
+	public void area(int length, int bredth, float radius) {
+		
+		this.length = length;
+		this.bredth = bredth;
+		this.radius = radius;
+		area=length*bredth;
+	}
+
+	public abstract void Rectangle();
+	public abstract void Circle();
+
+	public void Rectangle(int length, int bredth) {
+		// TODO Auto-generated method stub
+		this.length = length;
+		this.bredth = bredth;
+	}
+}

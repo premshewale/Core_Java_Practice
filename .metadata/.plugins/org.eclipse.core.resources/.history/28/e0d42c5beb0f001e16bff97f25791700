@@ -1,0 +1,12 @@
+
+public abstract class CarFly extends Car {
+
+	@Override
+	public void fly() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+}

@@ -1,0 +1,17 @@
+package Interface;
+
+public class College implements PuneUniversity{
+
+	@Override
+	public void bcs() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void be() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

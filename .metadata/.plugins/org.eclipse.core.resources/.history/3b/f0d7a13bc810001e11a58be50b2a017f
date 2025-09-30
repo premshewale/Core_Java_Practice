@@ -1,0 +1,30 @@
+	import java.util.Scanner;
+	
+	
+public class UserInput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Scanner sc=new Scanner(System.in);
+		
+		String name;
+		int num;
+		double salary;
+		System.out.println("Enter Name");
+		name=sc.next();
+		System.out.println("Enter number");
+		num=sc.nextInt();
+		System.out.println("Enter Salary");
+		salary=sc.nextDouble();
+		System.out.println("name = "+name+"\tNumber = "+num);
+		Employee ep=new Employee(num, name, salary);
+		
+
+		
+		
+		
+	}
+
+}

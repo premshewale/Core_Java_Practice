@@ -1,0 +1,11 @@
+
+public class Array1DPass {
+	
+	
+	public void display(int[] var){
+		for(int i=0;i<5;i++){
+				System.out.print(var[i]+" ");
+		}
+
+}
+}

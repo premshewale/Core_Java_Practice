@@ -1,0 +1,10 @@
+
+public abstract class MyShape {
+	
+	private int lengh,bredth,area1;
+	private float radius,area;
+	public void area(){
+		
+	}
+
+}

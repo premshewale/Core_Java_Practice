@@ -1,0 +1,16 @@
+
+public abstract class Rectangle extends MyShape {
+	
+	public void area(int length,int bredth) {
+		super(length,bredth);
+	
+	@Override
+	public String toString() {
+		return "Rectangle [area=" + area + "]";
+	}
+	
+
+	
+
+
+}

@@ -1,0 +1,16 @@
+package Interface;
+
+public class PrinatableMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+			Student st= new Student("ABC", 21, 2003);
+			st.print();
+			
+			Constract ct= new Constract("XYZ", 2);
+			ct.name
+	}
+
+}

@@ -1,0 +1,24 @@
+
+public  class Circle extends Rectangle {
+	
+	static{
+		pi=3.14f;
+	}
+	private static float  pi;
+	 private int radius;
+	 private float area;
+	 
+	public Circle(int radius) {
+		super();
+		this.radius = radius;
+		this.area = area;
+	}
+	public void area(){
+		area=radius*radius*pi;
+	}
+	@Override
+	public String toString() {
+		return "Circle [area=" + area + "]";
+	}
+	
+}

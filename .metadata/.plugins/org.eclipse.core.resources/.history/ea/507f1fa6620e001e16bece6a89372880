@@ -1,0 +1,23 @@
+
+public class TV extends ElectronicDevice  {
+	 
+	protected String companyname;
+	 protected String Device;
+	 protected int units;
+	 
+	 
+	public TV(String Device,String companyname,int units){
+		super(Device,companyname,units);
+		this.Device=Device;
+		 this.companyname=companyname;
+		 this.units=units;
+		
+	}
+	
+		
+	@Override
+	public String toString() {
+		return "Device = "+Device+"\t Company Name = "+companyname+"\t TV Units " +units;
+}
+}
+

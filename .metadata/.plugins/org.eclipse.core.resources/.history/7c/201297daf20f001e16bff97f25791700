@@ -1,0 +1,23 @@
+
+public  class Rectangle extends MyShape {
+	 private int breadth,length;
+	 private float area;
+	
+	 
+	public Rectangle(int breadth, int length) {
+	
+		this.breadth = breadth;
+		this.length = length;
+	}
+
+	public void area(){
+		area=length*breadth;
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [area=" + area + "]";
+	}
+
+
+}

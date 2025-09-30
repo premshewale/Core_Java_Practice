@@ -1,0 +1,9 @@
+
+public abstract class Circle {
+	
+	static{
+		pi=3.14f;
+	}
+	private float area;
+	private static float  pi;
+}

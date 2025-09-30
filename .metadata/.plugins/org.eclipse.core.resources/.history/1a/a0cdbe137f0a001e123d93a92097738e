@@ -1,0 +1,14 @@
+
+public class TempConverterMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TempConvertor tp=new TempConvertor(0);
+		System.out.println(tp);
+		
+		TempConvertor tp1=new TempConvertor(100);
+		System.out.println(tp1);
+	}
+
+}

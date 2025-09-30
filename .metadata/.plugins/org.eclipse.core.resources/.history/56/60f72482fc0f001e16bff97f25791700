@@ -1,0 +1,14 @@
+package Interface;
+
+public class Student implements Printable{
+	
+	public String studentname;
+	public int rollNo;
+	public int birthyear;
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package demo.arithmetic.ops.main;
+
+public class ArithmeticOprationsMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class MobilePhone extends ElectronicDevice{
+
+	 
+	public MobilePhone(String Device,String companyname,int units){
+		super(Device,companyname,units);
+		
+	}
+	
+		
+	@Override
+	public String toString() {
+		return "Device = "+Device+"\tCompany Name = "+companyname+"\tMobilePhone Units " +units;
+}
+}
+
+
+
+

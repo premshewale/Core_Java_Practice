@@ -1,0 +1,13 @@
+
+public abstract class Rectangle extends MyShape {
+
+	public Rectangle() {
+		super(length,bredth,area);
+		// TODO Auto-generated constructor stub
+		
+	}
+
+	
+
+
+}

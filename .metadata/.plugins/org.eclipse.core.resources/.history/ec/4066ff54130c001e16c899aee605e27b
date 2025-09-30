@@ -1,0 +1,20 @@
+
+public class Sales extends Employees {
+	static{
+		incentive=2.5f;
+	}
+	private float incentive,gross;
+	public Sales(int empid,String empname,double salary){
+		this.empid=empid;
+		this.empname=empname;
+		this.salary=salary;
+}
+	public void calculateIncentive(){
+		gross=gross*incentive;
+	}
+	@Override
+	public String toString() {
+		return "Sales [incentive=" + incentive + ", gross=" + gross + "]";
+	}
+	
+}

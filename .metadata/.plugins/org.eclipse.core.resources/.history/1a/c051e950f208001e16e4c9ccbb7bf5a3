@@ -1,0 +1,15 @@
+
+public class StudentDetails {
+	private int rollno,year;
+	private float percentage;
+	public int initStudentData(int n1,int n2,float n3){
+		rollno=n1;
+		year=n2;
+		percentage=n3f;
+	}
+	public void displayStudentDetails(){
+		System.out.println("RollNumber="+rollno);
+		System.out.println("Year="+year);
+		System.out.println("percentage="+percentage);
+	}
+}
